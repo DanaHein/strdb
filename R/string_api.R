@@ -24,13 +24,6 @@ get_tabular_data = function(x, method, format='tsv', ...){
   return(data.table::data.table(X))
 }
 
-## If data.tables does not work, or string-db will stop tsv service:
-# install.packages('jsonlite')
-# install.packages('xml2')
-# readers = list(tsv=data.table::fread,
-#                json=jsonlite::fromJSON,
-#                xml=xml2::read_html)
-
 
 #' Map identifiers to string-db format.
 #'
