@@ -31,7 +31,7 @@ get_tabular_data = function(x, method, format='tsv', ...){
 #' @param species_ncbi_id The NCBI identification of the organism.
 #' @param format Change to 'json' or 'xml' if 'tsv' does not work.
 #' @param echo_query 1 - identifiers are appended to the output table. 0 - they ain't.
-#' @param ... Other settings listed in https://string-db.org/cgi/help.pl?subpage=api%23mapping-identifiers
+#' @param ... Other settings listed in \url{https://string-db.org/cgi/help.pl?subpage=api%23mapping-identifiers}
 #' @return data.table with translated entries. Some might be MISSING or there might be MULTIPLE VALID TRANSLATIONS. So think what about what you do.
 #' @export
 map_identifiers = function(identifiers,
@@ -51,7 +51,7 @@ map_identifiers = function(identifiers,
 #' @param identifiers Character array of protein identifiers or stringIDs.
 #' @param species_ncbi_id The NCBI identification of the organism.
 #' @param format Change to 'json' or 'xml' if 'tsv' does not work.
-#' @param ... Other settings listed in https://string-db.org/cgi/help.pl?subpage=api%23getting-functional-enrichment
+#' @param ... Other settings listed in
 #' @return data.table with translated entries.
 #' @export
 get_functional_enrichment = function(identifiers,
@@ -72,7 +72,7 @@ get_functional_enrichment = function(identifiers,
 #' @param species_ncbi_id The NCBI identification of the organism.
 #' @param path Where to save the image. It must have a 'png' or 'svg' extension.
 #' @param highres Download high resolution image?
-#' @param ... Other settings listed in https://string-db.org/cgi/help.pl?subpage=api%23getting-functional-enrichment
+#' @param ... Other settings listed in \url{https://string-db.org/cgi/help.pl?subpage=api%23getting-functional-enrichment}
 #' @return data.table with translated entries.
 #' @export
 saveNetworkPlot = function(identifiers,

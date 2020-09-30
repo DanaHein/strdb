@@ -14,8 +14,6 @@ saveNetworkPlot(identifiers, species_ncbi_id, path, highres = FALSE, ...)
 \item{path}{Where to save the image. It must have a 'png' or 'svg' extension.}
 
 \item{highres}{Download high resolution image?}
-
-\item{...}{Other settings listed in https://string-db.org/cgi/help.pl?subpage=api%23getting-functional-enrichment}
 }
 \value{
 data.table with translated entries.

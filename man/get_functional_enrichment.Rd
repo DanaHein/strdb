@@ -4,13 +4,8 @@
 \alias{get_functional_enrichment}
 \title{Get functional enrichment.}
 \usage{
-get_functional_enrichment(
-  identifiers,
-  species_ncbi_id,
-  format = "tsv",
-  caller_identity = "TenzerLab",
-  ...
-)
+get_functional_enrichment(identifiers, species_ncbi_id, format = "tsv",
+  caller_identity = "TenzerLab", ...)
 }
 \arguments{
 \item{identifiers}{Character array of protein identifiers or stringIDs.}
@@ -19,7 +14,7 @@ get_functional_enrichment(
 
 \item{format}{Change to 'json' or 'xml' if 'tsv' does not work.}
 
-\item{...}{Other settings listed in https://string-db.org/cgi/help.pl?subpage=api%23getting-functional-enrichment}
+\item{...}{Other settings listed in}
 }
 \value{
 data.table with translated entries.

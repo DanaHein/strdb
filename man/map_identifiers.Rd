@@ -4,13 +4,8 @@
 \alias{map_identifiers}
 \title{Map identifiers to string-db format.}
 \usage{
-map_identifiers(
-  identifiers,
-  species_ncbi_id,
-  format = "tsv",
-  echo_query = 1,
-  ...
-)
+map_identifiers(identifiers, species_ncbi_id, format = "tsv",
+  echo_query = 1, ...)
 }
 \arguments{
 \item{identifiers}{Character array of protein identifiers.}
@@ -20,8 +15,6 @@ map_identifiers(
 \item{format}{Change to 'json' or 'xml' if 'tsv' does not work.}
 
 \item{echo_query}{1 - identifiers are appended to the output table. 0 - they ain't.}
-
-\item{...}{Other settings listed in https://string-db.org/cgi/help.pl?subpage=api%23mapping-identifiers}
 }
 \value{
 data.table with translated entries. Some might be MISSING or there might be MULTIPLE VALID TRANSLATIONS. So think what about what you do.
