@@ -1,6 +1,6 @@
 Package: strdb
 Type: Package
-Title: Easy Access To STRING-DB
+Title: Easy Access To STRING-DB, testupdate
 Version: 0.1.0
 Author: Matteo Lacki, Dana Hein
 Maintainer: Dana Hein <danahein@uni-mainz.de>
